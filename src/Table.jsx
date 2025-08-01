@@ -1,22 +1,20 @@
-import axios from "axios";
 import { useEffect, useState } from "react";
+import axios from "axios";
 
 function Table() {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    const fetchUser = async () => {
+    const fetchUsers = async () => {
       try {
         const res = await axios.get("http://localhost:5000/users");
-        console.log(res);
         setUsers(res.data);
       } catch (err) {
         console.log(err);
       }
     };
-    fetchUser();
-  }, []);
-
+    fetchUsers();
+  }, [users]);
   return (
     <div>
       <table>

@@ -1,7 +1,14 @@
 {
   "users": [
-    { "id": 1, "name": "Vikash", "email": "vikash@gmail.com" },
-    { "id": 2, "name": "Anup", "email": "anup@gmail.com" },
-    { "id": 3, "name": "Sunil", "email": "sunil@gmail.com" }
+    {
+      "name": "Vikash Kumar ",
+      "email": "vikashkumar24041997@gmail.com",
+      "id": "4"
+    },
+    {
+      "id": "d856",
+      "name": "003",
+      "email": "anup@gmail.com"
+    }
   ]
 }

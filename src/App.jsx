@@ -1,9 +1,10 @@
 import Table from "./Table";
+import UserForm from "./UserForm";
 
 function App() {
   return (
     <>
-      <Table />
+      <UserForm />
     </>
   );
 }
