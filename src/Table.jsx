@@ -17,7 +17,7 @@ function Table() {
   }, [users]);
   return (
     <div>
-      <table>
+      <table border="1" cellPadding="10" cellSpacing="0">
         <thead>
           <tr>
             <th>Id</th>
